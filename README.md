@@ -29,7 +29,7 @@ An advanced AI-driven research tool that leverages **Llama-3.3-70B** via Groq to
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/research-paper-analyzer.git
+git clone https://github.com/Azohajutt/Research-Paper-Analyzer.git
 cd Research-Paper-Analyzer
 ```
 
