@@ -1,10 +1,10 @@
-# 🔬 Research Paper Analyzer (AI-Powered)
+# Research Paper Analyzer (AI-Powered)
 
 An advanced AI-driven research tool that leverages **Llama-3.3-70B** via Groq to analyze, summarize, and compare multiple research papers simultaneously. It uses **RAG (Retrieval-Augmented Generation)** to provide high-fidelity insights and even suggests novel research ideas based on the provided literature.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Multi-PDF Processing**: Upload and analyze multiple research papers in one go.
 - **Deep Summarization**: Generates professional 250–350 word summaries covering Problem, Method, Results, and Limitations.
@@ -15,7 +15,7 @@ An advanced AI-driven research tool that leverages **Llama-3.3-70B** via Groq to
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Large Language Model**: `Llama-3.3-70B-Versatile` (via [Groq](https://groq.com/))
 - **Frontend**: [Streamlit](https://streamlit.io/)
@@ -25,11 +25,11 @@ An advanced AI-driven research tool that leverages **Llama-3.3-70B** via Groq to
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/research-paper-analyzer.git
+git clone https://github.com/Azohajutt/Research-Paper-Analyzer.git
 cd Research-Paper-Analyzer
 ```
 
@@ -53,7 +53,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ---
 
-## 🏃 Usage
+## Usage
 
 1. **Launch the Dashboard**:
    ```bash
@@ -69,7 +69,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ---
 
-## 🔄 Project Flow
+## Project Flow
 
 1. **Document Loading**: PyMuPDF extracts raw text from uploaded PDFs.
 2. **Chunking**: Text is split into 1800-character overlapping chunks for context preservation.
@@ -80,6 +80,6 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
